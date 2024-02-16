@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app2.js" defer></script>
+    <link rel="stylesheet" href="form.css"> <!-- You can link a separate CSS file if needed -->
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="login-container">
+        
+        <form action="" method="post" id="form"> <!-- Replace "login_process.php" with your actual login processing script -->
+            <h1>Login</h1>
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+            <p>Don't have an account? <a href="register.html">Register</a></p> 
+        </form>
+        <!-- <p>Don't have an account? <a href="register.html">Register</a></p>  -->
+    </div>
+</body>
+</html>
